@@ -9,8 +9,8 @@ and fetch accurate data, simplifying database interactions without the need for 
 ## Table of Contents
 
 - [Preview](#preview)
-- [Preview](#Project-Highlights)
-- [How It Works](#Usage)
+- [Project Highlights](#Project-Highlights)
+- [Usage](#Usage)
 - [How It Works](#how-it-works)
 
 ## Preview
