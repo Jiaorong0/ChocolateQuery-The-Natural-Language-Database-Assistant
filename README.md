@@ -9,6 +9,8 @@ and fetch accurate data, simplifying database interactions without the need for 
 ## Table of Contents
 
 - [Preview](#preview)
+- [Preview](#Project-Highlights)
+- [How It Works](#Usage)
 - [How It Works](#how-it-works)
 
 ## Preview
@@ -61,13 +63,8 @@ streamlit run main.py
   
 ## How it works
 
-### Query Initiation
-Users initiate the process by posing a query related to the database in natural language.
-### Vector Embedding Retrieval
-Employing vector embeddings, the system identifies closely related instances, which then inform the language learning model (LLM) through a few-shot prompting approach.
-### Database Schema Interpretation
-The system extracts the schema details of the database, providing the LLM with the necessary context for query generation.
-### SQL Query Synthesis
-Armed with context and examples, the LLM crafts an SQL query that corresponds to the user's initial inquiry.
-### Query Execution & Response Delivery
-This query is executed against the database, and the retrieved data is processed, formatted, and presented back to the user as a coherent answer.
+1. Query Initiation: Users initiate the process by posing a query related to the database in natural language.
+2. Vector Embedding Retrieval: Employing vector embeddings, the system identifies closely related instances, which then inform the language learning model (LLM) through a few-shot prompting approach.
+3. Database Schema Interpretation: The system extracts the schema details of the database, providing the LLM with the necessary context for query generation.
+4. SQL Query Synthesis: Armed with context and examples, the LLM crafts an SQL query that corresponds to the user's initial inquiry.
+5. Query Execution & Response Delivery: This query is executed against the database, and the retrieved data is processed, formatted, and presented back to the user as a coherent answer.
